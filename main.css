@@ -1,0 +1,48 @@
+body{
+	background: #FFFFF0	;
+}
+
+table {
+	border-collapse: collapse;
+	min-width: 100%;	
+	font-family: Arial, Helvetica, sans-serif;
+	box-shadow: 0px 0px 10px red;
+}
+
+th {
+	font-size: 20px;
+	background: #FFE4B5;
+}
+
+td {
+	font-size: 18px;
+	text-align: center;
+	background: white	;
+}
+
+td, th {
+    padding: 10px; 
+    border: 2px solid red; 
+   }
+
+a {
+ 	text-decoration: none;
+ 	color: black;
+ 	transition: 0.2s linear;
+ }
+
+a:hover {
+    color: red; 
+    text-decoration: none; 
+   }
+
+.left_panel{
+ 	background: #FFA07A
+ }
+
+ caption {
+ 	font-size: 40px;
+ 	font-weight: 900;
+ 	color: red;
+ 	font-family: DejaVu Sans Mono, monospace;
+ }
